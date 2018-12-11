@@ -7,3 +7,4 @@ Development instance of hooking up to cert manager's prometheus data
    2. macOS: `dig +short host.docker.internal` inside one of your docker containers
 3. Change `localhost` to your host's Docker IP in `prometheus/prometheus.yml` in `targets` under the `kube-cert-manager` job
 4. `docker-compose up`
+5. Point your browser to http://localhost:9090
