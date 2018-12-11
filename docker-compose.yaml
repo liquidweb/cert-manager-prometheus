@@ -1,6 +1,7 @@
 version: '3'
 services:
   prometheus:
+    container_name: cert-manager-prometheus
     image: prom/prometheus:v2.5.0
     ports:
       - '9090:9090'
